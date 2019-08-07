@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="178dp"
+            android:layout_marginEnd="77dp"
+            android:text="Next"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="485dp" />
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="177dp"
+            android:layout_marginEnd="79dp"
+            android:layout_toStartOf="@+id/pass"
+            android:text="Tap"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="310dp"
+            android:layout_height="252dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="0dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="219dp"
+            tools:srcCompat="@tools:sample/avatars[0]" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="235dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="52dp"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

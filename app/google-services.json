@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573487748638",
+    "firebase_url": "https://voicedkt.firebaseio.com",
+    "project_id": "voicedkt",
+    "storage_bucket": "voicedkt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573487748638:android:ffc69bd5fd9087ae",
+        "android_client_info": {
+          "package_name": "com.example.voicedkt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573487748638-lpofjhjvkbm63l0g159q311vfumpjme3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.voicedkt",
+            "certificate_hash": "ce7e434a2002c1cfa2fbd3eeb436470649f91264"
+          }
+        },
+        {
+          "client_id": "573487748638-kgthdglmraetn27a1frj3vf8d0e1e4dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfuCjjuy5EXXTIs4MKmA_LjVYbscI9XAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573487748638-kgthdglmraetn27a1frj3vf8d0e1e4dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
